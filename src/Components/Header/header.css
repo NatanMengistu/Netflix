@@ -1,0 +1,46 @@
+.header-outer-container {
+  position: sticky;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(20, 20, 20);
+  height: 10vh;
+  color: white;
+  transition: all 0.5s;
+  transition-timing-function: ease-in;
+  z-index: 1;
+}
+.nav-black {
+  background-color: rgb(20, 20, 20);
+}
+.header-container {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-container div ul li {
+  margin-right: 3vh;
+}
+.list-1 {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  align-items: center;
+  justify-content: space-between;
+}
+/*.header-container ul li {
+  display: flex;
+  justify-self: space-between;
+}*/
+.list-2 {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  align-content: space-between;
+}
+@import url();
